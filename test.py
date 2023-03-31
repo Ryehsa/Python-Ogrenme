@@ -8,12 +8,4 @@ a=5
 b=5
 print(a,b)
 print(type(b))# değişken veri türünü öğrenme
-x = "awesome"
 
-def myfunc():
-  x = "fantastic"
-  print("Python is " + x)
-
-myfunc()
-
-print("Python is " + x)
