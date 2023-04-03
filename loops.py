@@ -24,3 +24,10 @@ for x in range(6):
 else:
   print("Finally finished!")
 
+
+ilk_metin = "asdasfddgdhfjfdgdşhjkjhkhjjh"
+ikinci_metin = "sdfsuıdoryeuıfsjkdfhdjklghjdfklruseldhfjlkdshfljskeeuf"
+
+for s in ikinci_metin: #ikinci_metin'deki, 's' adını verdiğimiz bütün öğeler için
+    if not s in ilk_metin: #eğer 's' adlı bu öğe ilk_metin'de yoksa
+        print(s) #'s' adlı öğeyi ekrana bas

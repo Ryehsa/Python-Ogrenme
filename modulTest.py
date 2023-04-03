@@ -12,3 +12,5 @@ print(mm.customer["name"])
 
 from matematikModul import topla
 topla(2,4)
+from matematikModul import carpim
+carpim(3,3)
